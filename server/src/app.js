@@ -4,8 +4,12 @@ const Teammatch = require("./models/teamMatches.model")
 
 const app = express() 
 
+// adding 2 middle-ware 
+app.use(express.json())
+app.use(cors())
 
-// testing 
+
+// testing api's
 
 // to get team details
 app.get("/teams", async(req, res)=> {
