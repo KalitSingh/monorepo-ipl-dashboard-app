@@ -16,3 +16,7 @@
     align-items: center; 
     gap: 18px;
 }
+.nav-items-link{
+    text-decoration: none;
+    cursor: pointer;
+}

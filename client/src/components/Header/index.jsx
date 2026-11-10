@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import { Component } from "react"
 
 import "./index.css"
@@ -10,13 +11,19 @@ class Header extends Component {
                 <header className="header-container">
                 <ul className="nav-items-container">
                     <li>
-                        <nav>Home</nav> 
+                        <Link to="/" className="nav-items-link">
+                            <nav>Home</nav> 
+                        </Link>
                     </li>
                     <li>
-                        <nav>About Us</nav>
+                        <Link to="/about" className="nav-items-link">
+                            <nav>About Us</nav>
+                        </Link>
                     </li>
                     <li>
-                        <nav>Contact</nav>
+                        <Link to="/contact" className="nav-items-link">
+                            <nav>Contact Us</nav>
+                        </Link>
                     </li>
                 </ul>
                 </header>

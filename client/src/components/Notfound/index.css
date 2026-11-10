@@ -1,0 +1,10 @@
+.notfound-img-container{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.not-found-img{
+   width: 100%;
+   border-radius: 4px;
+   max-width: 576px;
+}

@@ -34,3 +34,9 @@
     font-size: 16px;
     opacity: 1;
 }
+
+/* this is for Link */
+.team-cards-link{
+    outline: none; 
+    text-decoration: none;
+} 
