@@ -1,0 +1,62 @@
+/* just wrapper of complete title + teams card container */
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* background-color: #5864a5; */
+    opacity: 0.6;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+/* wrapper of title + teams card */
+.home-page-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #15a03f;
+    width: 88%;
+}
+.home-page-card-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.home-page-logo-container{
+    width: 30px;
+    height: 40px;
+    
+}
+.home-page-logo{
+    width: 80%;
+    /* border: 2px solid green;  */
+}
+.home-page-title{
+    font-size: 26px;
+    /* border: 2px solid #c1e6c1; */
+}
+
+/* team list container  */
+
+.home-page-team-list-container{
+    display: flex; 
+    /* align-items: center; */
+    justify-content: center;
+    list-style-type: none;
+
+    margin-top: 26px;
+    gap: 8px;
+    flex-wrap: wrap; 
+    border: 2px solid red;
+
+    max-width: 568px;
+}
+/* @media screen and (min-width: 768px){
+    .home-page-team-list-container{
+        max-width: 
+    }
+} */
+
+/* teamcard css  */

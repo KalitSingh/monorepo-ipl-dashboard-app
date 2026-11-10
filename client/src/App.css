@@ -1,0 +1,14 @@
+.main-bg-container{
+    background-image:  url("./assets/ipl-dashboard-sm-bg.png");
+    @media (min-width: 768px){
+        background-image: url("./assets/ipl-dashboard-lg-bg.png");
+    }
+    background-size: contain; 
+    height: 100vh;
+
+    /* alignment */
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}

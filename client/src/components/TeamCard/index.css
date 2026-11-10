@@ -1,0 +1,36 @@
+.team-list-cards-container {
+    border: 1px solid #daf1da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    background-color: hsl(217, 38%, 57%, 0.4);
+    width: 144px;
+    margin-left: 4px;
+    @media screen and (min-width: 768px){
+        width: 230px;
+        gap: 26px;
+        margin-left: 10px;
+    }
+
+    padding: 12px;
+    border-radius: 8px;
+
+    margin-bottom: 9px;
+
+}
+
+
+.team-list-cards-img-container {
+    width: 40px;
+    height: 40px;
+}
+
+.team-list-cards-img {
+    width: 80%;
+}
+
+.team-cards-heading {
+    font-size: 16px;
+    opacity: 1;
+}
