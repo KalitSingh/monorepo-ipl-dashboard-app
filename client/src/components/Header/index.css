@@ -2,12 +2,12 @@
     width: 100%;
     padding: 12px; 
     background-color: #a6cbee;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     position: sticky;
     top: 0px;
 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;  need to fix it by applying from below pages of header*/
 }
 .nav-items-container{
     list-style-type: none; 

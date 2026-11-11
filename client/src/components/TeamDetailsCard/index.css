@@ -1,0 +1,38 @@
+.team-details-card-container{
+    border-radius: 4px; 
+    background-color: rgb(17, 24, 39);
+    color: white; 
+
+    display: flex; 
+    align-items: center;
+    flex-direction: column; 
+    /* border: 2px solid blue; */
+    padding: 8px;
+    text-align: center;
+
+}
+.team-details-card-img-container{
+    width: 80px; 
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-bottom: 12px;
+}
+.team-details-card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.team-details-card-title{
+    font-size: 18px; 
+    font-weight: bolder; 
+}
+.team-details-card-descrip{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.team-details-card-result{
+    color: green;
+    font-size: 14px;
+}
